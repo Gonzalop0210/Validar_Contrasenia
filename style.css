@@ -49,13 +49,28 @@ body {
     align-items: center;
 }
 
+.text_error {
+    font-size: 11px;
+    color: red;
+}
+
+.text_confirm {
+    font-size: 11px;
+    color: rgb(22, 145, 22);
+}
+
+.ocultar_text_error {
+    display: none;
+}
+
 /* Validaciones */
 .error_input {
     outline: 1px solid red;
     border: 1px solid red;
-    background-color: rgb(255, 189, 189);
+    background-color: rgb(255, 226, 226);
 }
 
 .error_input::placeholder {
     color: red;
+    font-weight: bold;
 }
